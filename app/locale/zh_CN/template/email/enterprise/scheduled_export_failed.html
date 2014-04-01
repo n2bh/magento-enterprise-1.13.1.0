@@ -1,0 +1,35 @@
+<!--@subject {{var operationName}} - Scheduled Export Failed @-->
+
+<table>
+    <thead>
+        <tr>
+            <th>"{{var operationName}}" - 安排的导出失败.</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <p>
+                    <b>运营商名称:</b><br />
+                    {{var operationName}}
+                </p>
+                <p>
+                    <b>实体类型:</b><br />
+                    {{var entity}}
+                </p>
+                <p>
+                    <b>文件历史路径:</b><br />
+                    {{var fileName}}
+                </p>
+                <p>
+                    <b>日期与时间:</b><br />
+                    {{var dateAndTime}}
+                </p>
+                <p>
+                    <b>日志追踪:</b><br />
+                    {{var trace}}
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>

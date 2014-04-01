@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Lib_PEAR</name>
+    <version>1.10.0.0</version>
+    <stability>stable</stability>
+    <license>Mixed</license>
+    <channel>enterprise</channel>
+    <extends/>
+    <summary>PEAR Library</summary>
+    <description>PEAR Library</description>
+    <notes>1.10.0.0</notes>
+    <authors><author><name>Magento Enterprise Team</name><user>core</user><email>core@magentocommerce.com</email></author></authors>
+    <date>2011-02-08</date>
+    <time>17:18:40</time>
+    <contents><target name="magelib"><dir name="PEAR"><dir name="HTTP"><file name="HTTP.php" hash="b6408ededd0ec0d585b84951b7054810"/><dir name="Request"><file name="Listener.php" hash="77b53a700acc70a55713efd0642bc28a"/></dir><file name="Request.php" hash="e409fdbe1518e11e16943f5185eccc2b"/></dir><dir name="Mail"><file name="mime.php" hash="93a00275edb0d9e94364ae11175741d1"/><file name="mimeDecode.php" hash="0e3cc74c0631a0e99e861caab50d763b"/><file name="mimePart.php" hash="53aedbcc104a9bd15cf96e5511b6498b"/><file name="xmail.dtd" hash="194810c478066eaeb28f51116b88e25a"/><file name="xmail.xsl" hash="61cea06fb6b4bd3a4b5e2d37384e14a9"/></dir><dir name="Net"><file name="Socket.php" hash="ea6a2a5f9ea70bc5ef25f03b0234cc08"/><file name="URL.php" hash="e7042d4176244ed99fe4b9c8e8cc6fb5"/></dir><dir name="PEAR"><file name="PEAR.php" hash="bd7b708d096f50fc873a2079fe03fd04"/></dir><file name="PEAR.php" hash="bd7b708d096f50fc873a2079fe03fd04"/><dir name="SOAP"><file name="Base.php" hash="7320b423fcdfb397c6a99cb7c585ac62"/><file name="Client.php" hash="1dd525ee520007e2d7651231c0dfefe3"/><file name="Fault.php" hash="34b9f405ebde848809b27ca2b16f1095"/><file name="Parser.php" hash="30b780cf6543ea39b03fe5cc6d8b1064"/><dir name="Transport"><file name="HTTP.php" hash="10362aa415631a40c1f35cd4cbb1075a"/></dir><file name="Transport.php" hash="0429fcddac603adc76c34c413705bd86"/><file name="Value.php" hash="026bce92aa9f922f0d8b410ff0f7ae3b"/><file name="WSDL.php" hash="67394dd9431b6970eac9a32df6171f2a"/></dir><dir name="XML"><dir name="Parser"><file name="Simple.php" hash="d11a9e750faecbfba6cc0c7a9eee5dcb"/></dir><file name="Parser.php" hash="f457617bc7ab0002f7374e9cca379681"/><file name="Serializer.php" hash="3fc9cbf6dff9b95372d05cb63854984d"/><file name="Unserializer.php" hash="937ba82a91ee40fa5a34911e70efaf3a"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><extension><name>PDO</name><min></min><max></max></extension><extension><name>SPL</name><min></min><max></max></extension><extension><name>curl</name><min></min><max></max></extension><extension><name>SimpleXML</name><min></min><max></max></extension><extension><name>dom</name><min></min><max></max></extension><extension><name>gd</name><min></min><max></max></extension><extension><name>iconv</name><min></min><max></max></extension><extension><name>pdo_mysql</name><min></min><max></max></extension><extension><name>mcrypt</name><min></min><max></max></extension><extension><name>pcre</name><min></min><max></max></extension><extension><name>Reflection</name><min></min><max></max></extension><extension><name>session</name><min></min><max></max></extension></required></dependencies>
+</package>

@@ -1,0 +1,34 @@
+<!--@subject {{var operationName}} - Scheduled Import Failed @-->
+<table>
+    <thead>
+        <tr>
+            <th>"{{var operationName}}" - Ingeroosterde invoer mislukt.</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <p>
+                    <b>Operatie naam:</b><br />
+                    {{var operationName}}
+                </p>
+                <p>
+                    <b>Type entiteit:</b><br />
+                    {{var entity}}
+                </p>
+                <p>
+                    <b>Bestandsgeschiedenis pad:</b><br />
+                    {{var fileName}}
+                </p>
+                <p>
+                    <b>Datum & tijd:</b><br />
+                    {{var dateAndTime}}
+                </p>
+                <p>
+                    <b>Log spoor:</b><br />
+                    {{var trace}}
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>

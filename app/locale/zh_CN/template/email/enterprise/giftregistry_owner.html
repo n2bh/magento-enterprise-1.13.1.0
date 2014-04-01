@@ -1,0 +1,54 @@
+<!--@subject Gift Registry created at {{var store.getFrontendName()}} @-->
+<!--@vars
+{"store url=\"\"":"Store Url",
+"store url=\"customer/account/\"":"Customer Account Url",
+"var logo_url":"Email Logo Image Url",
+"var logo_alt":"Email Logo Image Alt",
+"var store.getFrontendName()":"Store Name",
+"var owner.getName()|escape":"Owner Name",
+"var entity.getTitle()|escape":"Registry Title",
+"var entity.getMessage|escape":"Registry Recipients",
+"var entity.getUrlKey()|escape":"Registry Url Key",
+"var url|escape":"Registry Url"}
+@-->
+<!--@styles
+body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }
+@-->
+<body style="background:#F6F6F6; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:0; padding:0;">
+<div style="background:#F6F6F6; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:0; padding:0;">
+<table cellspacing="0" cellpadding="0" border="0" height="100%" width="100%">
+    <tr>
+        <td align="center" valign="top" style="padding:20px 0 20px 0">
+            <table bgcolor="FFFFFF" cellspacing="0" cellpadding="10" border="0" width="650" style="border:1px solid #E0E0E0;">
+                <tr>
+                    <td valign="top">
+                        <a href="{{store url=""}}" style="color:#1E7EC8;"><img src="{{var logo_url}}" alt="{{var logo_alt}}" border="0"/></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <h1 style="font-size:22px; font-weight:normal; line-height:22px; margin:0 0 11px 0;"">您好， {{var owner.getName()|escape}}</h1>
+
+                        <p style="font-size:12px; line-height:16px; margin:0 0 16px 0;">您已经成功创建以下礼物注册单:<br/><br/>
+                            礼物注册单： {{var entity.getTitle()|escape}}<br/>
+                            {{if entity.getMessage()}}Message: {{var entity.getMessage()|escape}}</br>{{/if}}
+                        </p>
+
+                        <p style="font-size:12px; line-height:16px; margin:0 0 16px 0;">现在，您可以向礼物注册单中添加商品了。简单浏览 <a href="{{store url=""}}" style="color:#1E7EC8;">{{var store.getFrontendName()}}</a> 向购物车或愿望清单添加商品。您可以从购物车或愿望清单页面向注册单添加商品.</p>
+                        <p style="font-size:12px; line-height:16px; margin:0 0 16px 0;">通过登录您的账户并访问礼物注册单标签，您也可以跟朋友和家人共享。或者，您可以用邮件将以下链接和礼物注册单 ID 发送给他们:</p>
+
+                        <p style="font-size:12px; line-height:16px; margin:0 0 16px 0;">
+                            礼物注册单位置: <a href="{{var url|escape}}" style="color:#1E7EC8;">{{var url|escape}}</a><br/>
+                            礼物注册单 ID：{{var entity.getUrlKey()|escape}}
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#EAEAEA" align="center" style="background:#EAEAEA; text-align:center;"><center><p style="font-size:12px; margin:0;">再次向您表示感谢, <strong>{{var store.getFrontendName()}}</strong></p></center></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</div>
+</body>

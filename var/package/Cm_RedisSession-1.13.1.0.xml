@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Cm_RedisSession</name>
+    <version>1.13.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://framework.zend.com/license/new-bsd">New BSD</license>
+    <channel>enterprise</channel>
+    <extends/>
+    <summary>Redis session</summary>
+    <description>Redis seesion</description>
+    <notes>1.13.1.0</notes>
+    <authors><author><name>Colin Mollenhour</name><user>core</user><email>colin@mollenhour.com</email></author></authors>
+    <date>2013-11-11</date>
+    <time>18:03:52</time>
+    <contents><target name="magecommunity"><dir name="Cm"><dir name="RedisSession"><dir name="Model"><file name="Session.php" hash="fd4d16e73989a8b93582f8c11f8fdc40"/></dir><dir name="etc"><file name="config.xml" hash="4173754174f995f9f7a141747f417abc"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Cm_RedisSession.xml" hash="f36278d589fa562d20d5182c8864a3dd"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><package><name>Lib_Credis</name><channel>enterprise</channel><min>1.13.1.0</min><max>1.14.0.0</max></package></required></dependencies>
+</package>

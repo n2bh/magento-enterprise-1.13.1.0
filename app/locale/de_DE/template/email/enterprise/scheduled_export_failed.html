@@ -1,0 +1,35 @@
+<!--@subject {{var operationName}} - Scheduled Export Failed @-->
+
+<table>
+    <thead>
+        <tr>
+            <th>"{{var operationName}}" - Zeitgesteuerter Export fehlgeschlagen.</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <p>
+                    <b>Funktionsname:</b><br />
+                    {{var operationName}}
+                </p>
+                <p>
+                    <b>Entity-Typ:</b><br />
+                    {{var entity}}
+                </p>
+                <p>
+                    <b>Pfad zur Datei-Chronik:</b><br />
+                    {{var fileName}}
+                </p>
+                <p>
+                    <b>Datum & Uhrzeit:</b><br />
+                    {{var dateAndTime}}
+                </p>
+                <p>
+                    <b>Trace-Protokoll:</b><br />
+                    {{var trace}}
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>

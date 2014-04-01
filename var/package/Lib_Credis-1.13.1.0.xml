@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Lib_Credis</name>
+    <version>1.13.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.magentocommerce.com/license/enterprise-edition">Magento Enterprise Edition</license>
+    <channel>enterprise</channel>
+    <extends/>
+    <summary>Credis Library</summary>
+    <description>Credis Library</description>
+    <notes>1.13.1.0</notes>
+    <authors><author><name>Magento Enterprise Team</name><user>core</user><email>core@magentocommerce.com</email></author></authors>
+    <date>2013-11-11</date>
+    <time>18:03:59</time>
+    <contents><target name="magelib"><dir name="Credis"><file name="Client.php" hash="7bf903229fda050175c4f52b317c13b3"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

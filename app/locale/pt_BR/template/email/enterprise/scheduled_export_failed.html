@@ -1,0 +1,35 @@
+<!--@subject {{var operationName}} - Scheduled Export Failed @-->
+
+<table>
+    <thead>
+        <tr>
+            <th>"{{var operationName}}" - Exportação Agendada Falhou.</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <p>
+                    <b>Nome da Operação:</b><br />
+                    {{var operationName}}
+                </p>
+                <p>
+                    <b>Tipo de entidade:</b><br />
+                    {{var entity}}
+                </p>
+                <p>
+                    <b>Caminho do histórico de arquivo:</b><br />
+                    {{var fileName}}
+                </p>
+                <p>
+                    <b>Data & Hora:</b><br />
+                    {{var dateAndTime}}
+                </p>
+                <p>
+                    <b>Rastro do registro:</b><br />
+                    {{var trace}}
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,34 @@
+<!--@subject {{var operationName}} - Scheduled Import Failed @-->
+<table>
+    <thead>
+        <tr>
+            <th>"{{var operationName}}" - Fallo en la importación planificada.</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <p>
+                    <b>Nombre de la operación:</b><br />
+                    {{var operationName}}
+                </p>
+                <p>
+                    <b>Tipo de Entidad:</b><br />
+                    {{var entity}}
+                </p>
+                <p>
+                    <b>Ruta del historial de archivos:</b><br />
+                    {{var fileName}}
+                </p>
+                <p>
+                    <b>Fecha y hora:</b><br />
+                    {{var dateAndTime}}
+                </p>
+                <p>
+                    <b>Búsqueda del registro:</b><br />
+                    {{var trace}}
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>

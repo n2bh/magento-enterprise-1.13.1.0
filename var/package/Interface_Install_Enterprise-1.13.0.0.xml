@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Interface_Install_Enterprise</name>
+    <version>1.13.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.magentocommerce.com/license/enterprise-edition">Magento Enterprise Edition</license>
+    <channel>enterprise</channel>
+    <extends/>
+    <summary>Enterprise Edition interface for Install</summary>
+    <description>Enterprise Edition interface for Install</description>
+    <notes>1.13.0.0</notes>
+    <authors><author><name>Magento Enterprise Team</name><user>core</user><email>core@magentocommerce.com</email></author></authors>
+    <date>2013-04-03</date>
+    <time>12:48:51</time>
+    <contents><target name="magedesign"><dir name="install"><dir name="default"><dir name="enterprise"><dir name="template"><dir name="install"><file name="state.phtml" hash="48513db8dd061e4dc5004c2c7dc7bd70"/></dir><file name="page.phtml" hash="c139ff03ccf38dc92431b8c64eee36fe"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="install"><dir name="default"><dir name="enterprise"><dir name="css"><file name="boxes.css" hash="127532a26f93293af6f82ccc10810454"/><file name="clears.css" hash="92d6b05d260c8e3b3af9fe4995c6ee1a"/><file name="ie7minus.css" hash="13435b9c63ba3c82ff76a765452fbebb"/><file name="iestyles.css" hash="367f789c1c2710fbfaf1f90765fff7c1"/><file name="reset.css" hash="f7cfaeae1e5a4c0ca419fbb22aca32c9"/></dir><dir name="images"><file name="bkg_block.gif" hash="df355007ee78db8a33c4e542594fe3f2"/><file name="bkg_cols.gif" hash="c7ac187148d54d16d24ce7c96042a37d"/><file name="bkg_input.gif" hash="422e6aa6b68a457ea631b42bc2ee32a4"/><file name="bkg_page-title.gif" hash="a50193e8c279311f1651df27ab233f44"/><file name="i_notice.gif" hash="ebd56dc80b8346e10e93628bc0e6c372"/><file name="logo.gif" hash="f4362b0e8f923227c02a51392b269ab6"/><file name="validation_advice_bg.gif" hash="b85432906de8985a8b14eeb2dc652d3c"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>enterprise</channel><min>1.13.0.0</min><max>1.14.0.0</max></package></required></dependencies>
+</package>
